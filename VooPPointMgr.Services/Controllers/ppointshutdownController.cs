@@ -18,12 +18,20 @@ namespace VooPPointMgr.Services.Controllers
 
         // GET: api/ppointshutdown/5
       
-        public HttpResponseMessage Get(int id)
+        public string Get(int id)
         {
-            var pp = BLLPpoint.GetPPoint(id.ToString());
+          /*   var pp = BLLPpoint.GetPPoint(id.ToString());
             var result = BLLPublishingPoint._ShutdownPublishingPoint(pp.IIS_NAME);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
+            return response; */
+            return "";
+        }
+
+        // POST: api/ppointrestart
+        public void Post([FromBody]string value)
+        {
+            var result = BLLPublishingPoint._ShutdownPublishingPoint(value);
+            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
         }
         // PUT: api/ppointshutdown/5
         public void Put(int id, [FromBody]string value)

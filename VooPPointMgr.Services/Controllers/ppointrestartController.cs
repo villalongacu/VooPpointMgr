@@ -4,6 +4,8 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
+using VooAzureStreamFacade;
 using VooPPointMgr.BLL;
 
 namespace VooPPointMgr.Services.Controllers
@@ -23,21 +25,22 @@ namespace VooPPointMgr.Services.Controllers
         */
         // GET: api/ppointrestart/5
         [HttpGet]
-        public HttpResponseMessage Get(int id)
+        public string Get(int id)
         {
-
+            /*
             var pp = BLLPpoint.GetPPoint(id.ToString());
             var result = BLLPublishingPoint._RestartPublishingPoint(pp.IIS_NAME);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
+            return response;*/
+            return "value";
         }
 
+      
         // POST: api/ppointrestart
-        public HttpResponseMessage Post(string aPublishingPointName)
+        public void Post([FromBody]string value)
         {
-            var result = BLLPublishingPoint._RestartPublishingPoint(aPublishingPointName);
+            var result = BLLPublishingPoint._RestartPublishingPoint(value);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
         }
 
         // PUT: api/ppointrestart/5

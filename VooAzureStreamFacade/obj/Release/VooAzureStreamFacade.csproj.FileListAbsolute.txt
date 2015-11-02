@@ -58,6 +58,5 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\bin\Release\ru\System.Spatial.resources.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\bin\Release\zh-Hans\System.Spatial.resources.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\bin\Release\zh-Hant\System.Spatial.resources.dll
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\obj\Release\VooAzureStreamFacade.csprojResolveAssemblyReference.cache
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\obj\Release\VooAzureStreamFacade.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\obj\Release\VooAzureStreamFacade.pdb

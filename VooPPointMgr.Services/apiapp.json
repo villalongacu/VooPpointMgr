@@ -8,7 +8,7 @@
   "summary": "",
   "author": "",
   "endpoints": {
-    "apiDefinition": "/swagger/docs/v1",
+    "apiDefinition": null,
     "status": null
   }
 }

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
 using VooPPointMgr.BLL;
 using VooPPointMgr.DataL;
 
@@ -36,25 +37,28 @@ namespace VooPPointMgr.Services.Controllers
             return response;
         }
         // POST: api/createpp
-        public HttpResponseMessage Post([FromUri] tppoint e)
+        public void Post([FromBody] string value)
         {
-            var ppoint = BLLPpoint.CreatePPoint(e);
+            var data = JsonConvert.DeserializeObject<tppoint>(value);
+            var ppoint = BLLPpoint.CreatePPoint(data);
+
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, ppoint);
-            return response;
+           
         }
 
         // PUT: api/createpp/5
-        public HttpResponseMessage Put([FromUri] tppoint e)
+        public void Put([FromBody] string value)
         {
-            var ppoint = BLLPpoint.UpdatePPoint(e);
+            var data = JsonConvert.DeserializeObject<tppoint>(value);
+            var ppoint = BLLPpoint.UpdatePPoint(data);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, ppoint);
-            return response;
+           
         }
 
         // DELETE: api/createpp/5
-        public HttpResponseMessage Delete([FromUri] tppoint e)
+        public HttpResponseMessage Delete(int id)
         {
-            BLLPpoint.DeletePPoint(e.ID_PPOINT.ToString());
+            BLLPpoint.DeletePPoint(id.ToString());
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
         }

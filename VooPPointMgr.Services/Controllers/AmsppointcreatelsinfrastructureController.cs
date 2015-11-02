@@ -4,7 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
 using VooAzureStreamFacade;
+using VooPPointMgr.DataL;
 
 namespace VooPPointMgr.Services.Controllers
 {
@@ -12,11 +14,9 @@ namespace VooPPointMgr.Services.Controllers
     {
         // GET: api/Amsppointcreatelsinfrastructure
 
-        public HttpResponseMessage Get([FromUri] StartAMSConfigParams configParams)
+        public string Get([FromUri] StartAMSConfigParams configParams)
         {
-            var result = VooAzureStreamFacade.VooAzureStreamFacade.CreateLiveStreamingInfrastructure(configParams);
-            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
+            return "value";
         }
 
         // GET: api/Amsppointcreatelsinfrastructure/5
@@ -28,6 +28,9 @@ namespace VooPPointMgr.Services.Controllers
         // POST: api/Amsppointcreatelsinfrastructure
         public void Post([FromBody]string value)
         {
+            var data = JsonConvert.DeserializeObject<StartAMSConfigParams>(value);
+            var result = VooAzureStreamFacade.VooAzureStreamFacade.CreateLiveStreamingInfrastructure(data);
+            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
         // PUT: api/Amsppointcreatelsinfrastructure/5

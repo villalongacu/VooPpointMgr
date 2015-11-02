@@ -4,7 +4,10 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
 using VooAzureStreamFacade;
+using VooPPointMgr.BLL;
+using VooPPointMgr.DataL;
 
 
 namespace VooPPointMgr.Services.Controllers
@@ -12,11 +15,9 @@ namespace VooPPointMgr.Services.Controllers
     public class AmsppointcreateprogramController : ApiController
     {
         // GET: api/Amsppointcreateprogram
-        public HttpResponseMessage Get(CreateProgramAMSConfigParams configParams)
+        public string Get([FromUri] CreateProgramAMSConfigParams configParams)
         {
-            var result = VooAzureStreamFacade.VooAzureStreamFacade.CreateProgram(configParams);
-            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
+            return "value";
         }
 
         // GET: api/Amsppointcreateprogram/5
@@ -28,6 +29,10 @@ namespace VooPPointMgr.Services.Controllers
         // POST: api/Amsppointcreateprogram
         public void Post([FromBody]string value)
         {
+            var data = JsonConvert.DeserializeObject<CreateProgramAMSConfigParams>(value);
+            var ppoint = VooAzureStreamFacade.VooAzureStreamFacade.CreateProgram(data);
+            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, ppoint);
+
         }
 
         // PUT: api/Amsppointcreateprogram/5

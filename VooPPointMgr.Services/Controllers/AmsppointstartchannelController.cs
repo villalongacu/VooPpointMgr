@@ -11,11 +11,10 @@ namespace VooPPointMgr.Services.Controllers
     public class AmsppointstartchannelController : ApiController
     {
         // GET: api/Amsppointstartchannel
-        public HttpResponseMessage Get(string id)
+        public string Get(string id)
         {
-            var result = VooAzureStreamFacade.VooAzureStreamFacade.StartChannel(id);
-            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
+          
+            return " value";
         }
         // GET: api/Amsppointstartchannel/5
         public string Get(int id)
@@ -26,6 +25,8 @@ namespace VooPPointMgr.Services.Controllers
         // POST: api/Amsppointstartchannel
         public void Post([FromBody]string value)
         {
+            var result = VooAzureStreamFacade.VooAzureStreamFacade.StartChannel(value);
+            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
         }
 
         // PUT: api/Amsppointstartchannel/5

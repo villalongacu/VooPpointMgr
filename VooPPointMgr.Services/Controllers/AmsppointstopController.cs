@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using Newtonsoft.Json;
 using VooAzureStreamFacade;
 
 namespace VooPPointMgr.Services.Controllers
@@ -11,11 +12,9 @@ namespace VooPPointMgr.Services.Controllers
     public class AmsppointstopController : ApiController
     {
         // GET: api/Amsppointstop
-        public HttpResponseMessage Get([FromUri] StopAMSConfigParams configParams)
+        public string Get([FromUri] StopAMSConfigParams configParams)
         {
-            var result = VooAzureStreamFacade.VooAzureStreamFacade.Stop(configParams);
-            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
+         return "value";
         }
 
         // GET: api/Amsppointstop/5
@@ -27,6 +26,8 @@ namespace VooPPointMgr.Services.Controllers
         // POST: api/Amsppointstop
         public void Post([FromBody]string value)
         {
+            var data = JsonConvert.DeserializeObject<StopAMSConfigParams>(value);
+            var ppoint = VooAzureStreamFacade.VooAzureStreamFacade.Stop(data);
         }
 
         // PUT: api/Amsppointstop/5

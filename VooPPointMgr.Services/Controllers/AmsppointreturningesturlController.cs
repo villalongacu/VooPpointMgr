@@ -10,12 +10,18 @@ namespace VooPPointMgr.Services.Controllers
 {
     public class AmsppointreturningesturlController : ApiController
     {
-        public HttpResponseMessage Get(string id)
+        public HttpResponseMessage Get([FromUri] string id)
         {
             var result = VooAzureStreamFacade.VooAzureStreamFacade.ReturnIngestURL(id);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
             return response;
         }
+
+        public string Get()
+        {
+            return "value1";
+        }
+
         // GET: api/Amsppointreturningesturl/5
         public string Get(int id)
         {

@@ -26,6 +26,12 @@ namespace VooPPointMgr.Services.Controllers
             return response;
         }
 
+        // POST: api/ppointstop
+        public void Post([FromBody]string value)
+        {
+            var result = BLLPublishingPoint._StopLiveSource_PublishingPoint(value);
+            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
+        }
         // PUT: api/ppointstop/5
         public void Put(int id, [FromBody]string value)
         {
