@@ -12,7 +12,6 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Service
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\roslyn\VBCSCompiler.exe.config
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooPPointMgr.Services.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooPPointMgr.Services.pdb
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Antlr3.Runtime.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\EntityFramework.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\EntityFramework.SqlServer.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.AspNet.Identity.Core.dll
@@ -30,7 +29,6 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Service
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Owin.Security.Twitter.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Web.Infrastructure.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Newtonsoft.Json.dll
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Owin.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Net.Http.Formatting.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Web.Helpers.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Web.Http.dll
@@ -43,7 +41,6 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Service
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Web.WebPages.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Web.WebPages.Razor.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooPPointMgr.BLL.dll
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebGrease.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooPPointMgr.BLL.pdb
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Newtonsoft.Json.xml
@@ -79,7 +76,6 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Service
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooPPointMgr.DataL.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooPPointMgr.DataL.pdb
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooPPointMgr.Services.dll.config
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.WindowsAzure.MediaServices.Client.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\VooAzureStreamFacade.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.WindowsAzure.MediaServices.Client.Common.BlobTransfer.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Web.Administration.dll
@@ -95,9 +91,14 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Service
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Data.OData.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Data.Edm.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Spatial.xml
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Practices.TransientFaultHandling.Core.dll
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Swashbuckle.Core.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.IdentityModel.Tokens.Jwt.dll
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebActivatorEx.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\MySql.Data.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\MySql.Data.Entity.EF5.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\MySql.Data.Entity.EF6.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\MySql.Web.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebMatrix.WebData.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebMatrix.Data.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Web.Infrastructure.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebMatrix.WebData.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebMatrix.Data.xml

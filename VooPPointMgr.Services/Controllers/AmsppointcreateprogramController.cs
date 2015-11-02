@@ -27,7 +27,7 @@ namespace VooPPointMgr.Services.Controllers
         }
 
         // POST: api/Amsppointcreateprogram
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var data = JsonConvert.DeserializeObject<CreateProgramAMSConfigParams>(value);
             var ppoint = VooAzureStreamFacade.VooAzureStreamFacade.CreateProgram(data);

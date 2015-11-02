@@ -24,7 +24,7 @@ namespace VooPPointMgr.Services.Controllers
         }
 
         // POST: api/Amsppointstop
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var data = JsonConvert.DeserializeObject<StopAMSConfigParams>(value);
             var ppoint = VooAzureStreamFacade.VooAzureStreamFacade.Stop(data);

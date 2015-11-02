@@ -24,7 +24,7 @@ namespace VooPPointMgr.Services.Controllers
         }
 
         // POST: api/Amsppointstartls
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var data = JsonConvert.DeserializeObject<StartLSAMSConfigParams>(value);
             var ppoint = VooAzureStreamFacade.VooAzureStreamFacade.StartLiveStreaming(data);

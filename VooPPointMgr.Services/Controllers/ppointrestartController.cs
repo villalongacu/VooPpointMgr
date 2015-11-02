@@ -37,7 +37,7 @@ namespace VooPPointMgr.Services.Controllers
 
       
         // POST: api/ppointrestart
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var result = BLLPublishingPoint._RestartPublishingPoint(value);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);

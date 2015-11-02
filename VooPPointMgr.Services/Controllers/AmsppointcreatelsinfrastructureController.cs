@@ -26,7 +26,7 @@ namespace VooPPointMgr.Services.Controllers
         }
 
         // POST: api/Amsppointcreatelsinfrastructure
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var data = JsonConvert.DeserializeObject<StartAMSConfigParams>(value);
             var result = VooAzureStreamFacade.VooAzureStreamFacade.CreateLiveStreamingInfrastructure(data);

@@ -25,7 +25,7 @@ namespace VooPPointMgr.Services.Controllers
         }
 
         // POST: api/Createchannelppoint
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var data = JsonConvert.DeserializeObject<tchannel_ppoint>(value);
             var ppoint = BLLChannelPPoint.CreateChannelPPointAccess(data);

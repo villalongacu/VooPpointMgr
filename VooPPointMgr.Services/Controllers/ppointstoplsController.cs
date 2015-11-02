@@ -27,7 +27,7 @@ namespace VooPPointMgr.Services.Controllers
         }
 
         // POST: api/ppointstop
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var result = BLLPublishingPoint._StopLiveSource_PublishingPoint(value);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
