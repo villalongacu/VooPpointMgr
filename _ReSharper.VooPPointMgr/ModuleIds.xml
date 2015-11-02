@@ -1,0 +1,6 @@
+<Modules>
+  <Module PersistentId="13408E47-94F5-48F8-8077-0E7D32FDD7A1" ModuleId="VooPPointMgr.Data" />
+  <Module PersistentId="4F995192-3C7F-4F16-B684-EC96BAAF9591" ModuleId="VooPPointMgr.BLL" />
+  <Module PersistentId="E5328F86-4A14-4E45-9D2D-4F1AEC28C23B" ModuleId="WindowsFormsApplication1" />
+  <Module PersistentId="611AA903-7C80-47B2-8FFF-D312BCC56F0F" ModuleId="VooPPointMgr.Service" />
+</Modules>

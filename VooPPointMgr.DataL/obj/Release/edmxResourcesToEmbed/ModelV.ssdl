@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.6" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="VModelStoreContainer">
+    <EntitySet Name="channel" EntityType="VModel.Store.channel" store:Type="Tables" Schema="livost" />
+    <EntitySet Name="tchannel_ppoint" EntityType="VModel.Store.tchannel_ppoint" store:Type="Tables" Schema="livost" />
+    <EntitySet Name="tdevicechannelaccess" EntityType="VModel.Store.tdevicechannelaccess" store:Type="Tables" Schema="livost" />
+    <EntitySet Name="tencoderdevices" EntityType="VModel.Store.tencoderdevices" store:Type="Tables" Schema="livost" />
+    <EntitySet Name="tppoint" EntityType="VModel.Store.tppoint" store:Type="Tables" Schema="livost" />
+    <EntitySet Name="tppointstatus" EntityType="VModel.Store.tppointstatus" store:Type="Tables" Schema="livost" />
+    <AssociationSet Name="fkPPointStatus" Association="VModel.Store.fkPPointStatus">
+      <End Role="tppointstatus" EntitySet="tppointstatus" />
+      <End Role="tchannel_ppoint" EntitySet="tchannel_ppoint" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="channel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uint" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="description" Type="text" Nullable="false" />
+    <Property Name="createdate" Type="datetime" Nullable="false" />
+    <Property Name="created_by" Type="uint" Nullable="false" />
+    <Property Name="accescode" Type="text" />
+    <Property Name="channel_type" Type="uint" Nullable="false" />
+    <Property Name="enable_chat" Type="bool" Nullable="false" />
+    <Property Name="paypal_email" Type="varchar" MaxLength="250" />
+    <Property Name="logo_id" Type="uint" />
+    <Property Name="channel_guid" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="max_user" Type="uint" Nullable="false" />
+    <Property Name="media_url" Type="varchar" MaxLength="255" />
+    <Property Name="channel_mode" Type="uint" Nullable="false" />
+    <Property Name="video_size" Type="uint" Nullable="false" />
+    <Property Name="pagename" Type="varchar" Nullable="false" MaxLength="250" />
+    <Property Name="payment_configuration_id" Type="uint" />
+    <Property Name="is_visible" Type="bool" Nullable="false" />
+    <Property Name="show_player" Type="bool" Nullable="false" />
+    <Property Name="website_id" Type="uint" Nullable="false" />
+    <Property Name="customer_id" Type="uint" />
+  </EntityType>
+  <EntityType Name="tchannel_ppoint">
+    <Key>
+      <PropertyRef Name="ID_CHANNEL" />
+      <PropertyRef Name="ID_PPOINT" />
+    </Key>
+    <Property Name="ID_CHANNEL" Type="int" Nullable="false" />
+    <Property Name="ID_PPOINT" Type="int" Nullable="false" />
+    <Property Name="ID_STATUS" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tdevicechannelaccess">
+    <Key>
+      <PropertyRef Name="ID_DEVICE" />
+      <PropertyRef Name="ID_CHANNEL" />
+    </Key>
+    <Property Name="ID_DEVICE" Type="int" Nullable="false" />
+    <Property Name="ID_CHANNEL" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tencoderdevices">
+    <Key>
+      <PropertyRef Name="ID_ENCODERDEVICE" />
+    </Key>
+    <Property Name="ID_ENCODERDEVICE" Type="int" Nullable="false" />
+    <Property Name="DEVICE_NAME" Type="varchar" MaxLength="150" />
+  </EntityType>
+  <EntityType Name="tppoint">
+    <Key>
+      <PropertyRef Name="ID_PPOINT" />
+    </Key>
+    <Property Name="ID_PPOINT" Type="int" Nullable="false" />
+    <Property Name="IIS_NAME" Type="varchar" Nullable="false" MaxLength="150" />
+    <Property Name="URL" Type="varchar" MaxLength="150" />
+    <Property Name="AMS_URL" Type="varchar" MaxLength="150" />
+    <Property Name="AMS_PREVIEW" Type="varchar" MaxLength="150" />
+    <Property Name="AMS_PLAYER" Type="varchar" MaxLength="150" />
+    <Property Name="IN_USE" Type="bool" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tppointstatus">
+    <Key>
+      <PropertyRef Name="ID_STATUS" />
+    </Key>
+    <Property Name="ID_STATUS" Type="int" Nullable="false" />
+    <Property Name="PPOINT_STATUS" Type="varchar" Nullable="false" MaxLength="150" />
+  </EntityType>
+  <Association Name="fkPPointStatus">
+    <End Role="tppointstatus" Type="VModel.Store.tppointstatus" Multiplicity="1" />
+    <End Role="tchannel_ppoint" Type="VModel.Store.tchannel_ppoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tppointstatus">
+        <PropertyRef Name="ID_STATUS" />
+      </Principal>
+      <Dependent Role="tchannel_ppoint">
+        <PropertyRef Name="ID_STATUS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

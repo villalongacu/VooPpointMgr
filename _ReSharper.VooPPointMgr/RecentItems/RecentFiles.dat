@@ -1,0 +1,54 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:DeviceChannelAccessInfo.cs" caret="638" fromTop="13" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:tppoint.cs" caret="741" fromTop="19" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:tchannel_ppoint.cs" caret="662" fromTop="17" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:ModelPpointMgr.tt" caret="0" fromTop="0" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:tencoderdevice.cs" caret="672" fromTop="17" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:tdevicechannelaccess.cs" caret="0" fromTop="0" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:ChannelPpointAccessInfo.cs" caret="141" fromTop="7" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:channel.cs" caret="426" fromTop="7" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLPPointStatus.cs" caret="356" fromTop="15" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLEncoderDevices.cs" caret="534" fromTop="16" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLPpoint.cs" caret="861" fromTop="17" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:ChannelPPointRepository.cs" caret="290" fromTop="12" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:EncoderDevicesRepository.cs" caret="181" fromTop="9" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLDeviceChannelAccess.cs" caret="290" fromTop="16" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLChannel.cs" caret="389" fromTop="16" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLChannelPPoint.cs" caret="209" fromTop="10" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:DeviceChannelAccessRepository.cs" caret="231" fromTop="12" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:PPointStatusRepository.cs" caret="342" fromTop="13" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:ChannelRepository.cs" caret="390" fromTop="17" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLPublishingPoint.cs" caret="13523" fromTop="20" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:Areas/d:HelpPage/f:XmlDocumentationProvider.cs" caret="1035" fromTop="12" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:PpointRepository.cs" caret="1135" fromTop="12" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:Controllers/f:ValuesController.cs" caret="0" fromTop="0" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/f:Web.config" caret="1214" fromTop="14" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:App.Config" caret="778" fromTop="8" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:App_Start/f:WebApiConfig.cs" caret="556" fromTop="9" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:Controllers/f:PPointController.cs" caret="1729" fromTop="11" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:Controllers/f:DeviceChannelAccessController.cs" caret="419" fromTop="14" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:ChannelPpointAccessInfo.cs" caret="253" fromTop="11" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/f:DeviceChannelAccessInfo.cs" caret="638" fromTop="19" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:ChannelRepository.cs" caret="110" fromTop="2" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:PPointStatusRepository.cs" caret="165" fromTop="7" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:PpointRepository.cs" caret="165" fromTop="7" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:DeviceChannelAccessRepository.cs" caret="139" fromTop="6" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:ChannelPPointRepository.cs" caret="165" fromTop="7" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLChannel.cs" caret="844" fromTop="7" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLChannelPPoint.cs" caret="1511" fromTop="5" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLDeviceChannelAccess.cs" caret="290" fromTop="16" />
+    <File id="13408E47-94F5-48F8-8077-0E7D32FDD7A1/d:Repositories/f:EncoderDevicesRepository.cs" caret="181" fromTop="9" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLEncoderDevices.cs" caret="534" fromTop="16" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLPPointStatus.cs" caret="944" fromTop="7" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLPpoint.cs" caret="1216" fromTop="11" />
+    <File id="4F995192-3C7F-4F16-B684-EC96BAAF9591/f:BLLPublishingPoint.cs" caret="13222" fromTop="13" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:Controllers/f:DeviceChannelAccessController.cs" caret="319" fromTop="11" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:Areas/d:HelpPage/f:XmlDocumentationProvider.cs" caret="7182" fromTop="15" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/f:Web.config" caret="1214" fromTop="14" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:Controllers/f:PPointController.cs" caret="1708" fromTop="10" />
+    <File id="611AA903-7C80-47B2-8FFF-D312BCC56F0F/d:App_Start/f:WebApiConfig.cs" caret="302" fromTop="8" />
+  </RecentEdits>
+</RecentFiles>

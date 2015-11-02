@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="vooModelStoreContainer" CdmEntityContainer="vooEntities">
+    <EntitySetMapping Name="channels">
+      <EntityTypeMapping TypeName="vooModel.channel">
+        <MappingFragment StoreEntitySet="channel">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="description" ColumnName="description" />
+          <ScalarProperty Name="createdate" ColumnName="createdate" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="accescode" ColumnName="accescode" />
+          <ScalarProperty Name="channel_type" ColumnName="channel_type" />
+          <ScalarProperty Name="enable_chat" ColumnName="enable_chat" />
+          <ScalarProperty Name="paypal_email" ColumnName="paypal_email" />
+          <ScalarProperty Name="logo_id" ColumnName="logo_id" />
+          <ScalarProperty Name="channel_guid" ColumnName="channel_guid" />
+          <ScalarProperty Name="max_user" ColumnName="max_user" />
+          <ScalarProperty Name="media_url" ColumnName="media_url" />
+          <ScalarProperty Name="channel_mode" ColumnName="channel_mode" />
+          <ScalarProperty Name="video_size" ColumnName="video_size" />
+          <ScalarProperty Name="pagename" ColumnName="pagename" />
+          <ScalarProperty Name="payment_configuration_id" ColumnName="payment_configuration_id" />
+          <ScalarProperty Name="is_visible" ColumnName="is_visible" />
+          <ScalarProperty Name="show_player" ColumnName="show_player" />
+          <ScalarProperty Name="website_id" ColumnName="website_id" />
+          <ScalarProperty Name="customer_id" ColumnName="customer_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tchannel_ppoint">
+      <EntityTypeMapping TypeName="vooModel.tchannel_ppoint">
+        <MappingFragment StoreEntitySet="tchannel_ppoint">
+          <ScalarProperty Name="ID_CHANNEL" ColumnName="ID_CHANNEL" />
+          <ScalarProperty Name="ID_PPOINT" ColumnName="ID_PPOINT" />
+          <ScalarProperty Name="ID_STATUS" ColumnName="ID_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tdevicechannelaccesses">
+      <EntityTypeMapping TypeName="vooModel.tdevicechannelaccess">
+        <MappingFragment StoreEntitySet="tdevicechannelaccess">
+          <ScalarProperty Name="ID_DEVICE" ColumnName="ID_DEVICE" />
+          <ScalarProperty Name="ID_CHANNEL" ColumnName="ID_CHANNEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tencoderdevices">
+      <EntityTypeMapping TypeName="vooModel.tencoderdevice">
+        <MappingFragment StoreEntitySet="tencoderdevices">
+          <ScalarProperty Name="ID_ENCODERDEVICE" ColumnName="ID_ENCODERDEVICE" />
+          <ScalarProperty Name="DEVICE_NAME" ColumnName="DEVICE_NAME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tppoints">
+      <EntityTypeMapping TypeName="vooModel.tppoint">
+        <MappingFragment StoreEntitySet="tppoint">
+          <ScalarProperty Name="ID_PPOINT" ColumnName="ID_PPOINT" />
+          <ScalarProperty Name="IIS_NAME" ColumnName="IIS_NAME" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="AMS_URL" ColumnName="AMS_URL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tppointstatus">
+      <EntityTypeMapping TypeName="vooModel.tppointstatu">
+        <MappingFragment StoreEntitySet="tppointstatus">
+          <ScalarProperty Name="ID_STATUS" ColumnName="ID_STATUS" />
+          <ScalarProperty Name="PPOINT_STATUS" ColumnName="PPOINT_STATUS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

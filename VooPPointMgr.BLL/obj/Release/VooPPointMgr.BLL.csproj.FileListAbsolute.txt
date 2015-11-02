@@ -1,0 +1,13 @@
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\VooPPointMgr.BLL.dll.config
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\VooPPointMgr.BLL.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\VooPPointMgr.BLL.pdb
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\EntityFramework.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\EntityFramework.SqlServer.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\Microsoft.Web.Administration.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\VooPPointMgr.DataL.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\VooPPointMgr.DataL.pdb
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\EntityFramework.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\bin\Release\EntityFramework.SqlServer.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\obj\Release\VooPPointMgr.BLL.csprojResolveAssemblyReference.cache
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\obj\Release\VooPPointMgr.BLL.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.BLL\obj\Release\VooPPointMgr.BLL.pdb

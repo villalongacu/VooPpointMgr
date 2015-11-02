@@ -1,0 +1,8 @@
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\VooPPointMgr.DataL.dll.config
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\VooPPointMgr.DataL.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\VooPPointMgr.DataL.pdb
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\EntityFramework.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\EntityFramework.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\obj\Debug\VooPPointMgr.DataL.csprojResolveAssemblyReference.cache
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\obj\Debug\VooPPointMgr.DataL.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\obj\Debug\VooPPointMgr.DataL.pdb

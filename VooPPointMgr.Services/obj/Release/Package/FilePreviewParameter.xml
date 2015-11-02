@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Microsoft-ApiAppf358233f01354073968efcc95a65628f" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\LIVOST_PROJECTS_ALL\\LIVOST\ PORTAL\ 2012\\VooPPointMgr2015G\\VooPPointMgr\.Services\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\LIVOST_PROJECTS_ALL\\LIVOST\ PORTAL\ 2012\\VooPPointMgr2015G\\VooPPointMgr\.Services\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-VooPPointMgr.Services-20151028111848.mdf;Initial Catalog=aspnet-VooPPointMgr.Services-20151028111848;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\LIVOST_PROJECTS_ALL\\LIVOST\ PORTAL\ 2012\\VooPPointMgr2015G\\VooPPointMgr\.Services\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="vEntities-Web.config Connection String" description="" value="metadata=res://*/ModelV.csdl|res://*/ModelV.ssdl|res://*/ModelV.msl;provider=MySql.Data.MySqlClient;provider connection string=&quot;server=localhost;user id=root;password=admin;persistsecurityinfo=False;database=livost&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\LIVOST_PROJECTS_ALL\\LIVOST\ PORTAL\ 2012\\VooPPointMgr2015G\\VooPPointMgr\.Services\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='vEntities']/@connectionString" />
+  </parameter>
+</parameters>

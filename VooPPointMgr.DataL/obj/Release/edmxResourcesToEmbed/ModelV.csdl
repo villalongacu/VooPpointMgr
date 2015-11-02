@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="VModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="vEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="channels" EntityType="VModel.channel" />
+    <EntitySet Name="tchannel_ppoint" EntityType="VModel.tchannel_ppoint" />
+    <EntitySet Name="tdevicechannelaccesses" EntityType="VModel.tdevicechannelaccess" />
+    <EntitySet Name="tencoderdevices" EntityType="VModel.tencoderdevice" />
+    <EntitySet Name="tppoints" EntityType="VModel.tppoint" />
+    <EntitySet Name="tppointstatus" EntityType="VModel.tppointstatu" />
+    <AssociationSet Name="fkPPointStatus" Association="VModel.fkPPointStatus">
+      <End Role="tppointstatus" EntitySet="tppointstatus" />
+      <End Role="tchannel_ppoint" EntitySet="tchannel_ppoint" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="channel">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="description" Type="String" Nullable="false" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="createdate" Type="DateTime" Nullable="false" />
+    <Property Name="created_by" Type="Int64" Nullable="false" />
+    <Property Name="accescode" Type="String" MaxLength="65535" Unicode="false" FixedLength="false" />
+    <Property Name="channel_type" Type="Int64" Nullable="false" />
+    <Property Name="enable_chat" Type="Boolean" Nullable="false" />
+    <Property Name="paypal_email" Type="String" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="logo_id" Type="Int64" />
+    <Property Name="channel_guid" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="max_user" Type="Int64" Nullable="false" />
+    <Property Name="media_url" Type="String" MaxLength="255" Unicode="false" FixedLength="false" />
+    <Property Name="channel_mode" Type="Int64" Nullable="false" />
+    <Property Name="video_size" Type="Int64" Nullable="false" />
+    <Property Name="pagename" Type="String" Nullable="false" MaxLength="250" Unicode="false" FixedLength="false" />
+    <Property Name="payment_configuration_id" Type="Int64" />
+    <Property Name="is_visible" Type="Boolean" Nullable="false" />
+    <Property Name="show_player" Type="Boolean" Nullable="false" />
+    <Property Name="website_id" Type="Int64" Nullable="false" />
+    <Property Name="customer_id" Type="Int64" />
+  </EntityType>
+  <EntityType Name="tchannel_ppoint">
+    <Key>
+      <PropertyRef Name="ID_CHANNEL" />
+      <PropertyRef Name="ID_PPOINT" />
+    </Key>
+    <Property Name="ID_CHANNEL" Type="Int32" Nullable="false" />
+    <Property Name="ID_PPOINT" Type="Int32" Nullable="false" />
+    <Property Name="ID_STATUS" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tppointstatu" Relationship="VModel.fkPPointStatus" FromRole="tchannel_ppoint" ToRole="tppointstatus" />
+  </EntityType>
+  <EntityType Name="tdevicechannelaccess">
+    <Key>
+      <PropertyRef Name="ID_DEVICE" />
+      <PropertyRef Name="ID_CHANNEL" />
+    </Key>
+    <Property Name="ID_DEVICE" Type="Int32" Nullable="false" />
+    <Property Name="ID_CHANNEL" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tencoderdevice">
+    <Key>
+      <PropertyRef Name="ID_ENCODERDEVICE" />
+    </Key>
+    <Property Name="ID_ENCODERDEVICE" Type="Int32" Nullable="false" />
+    <Property Name="DEVICE_NAME" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="tppoint">
+    <Key>
+      <PropertyRef Name="ID_PPOINT" />
+    </Key>
+    <Property Name="ID_PPOINT" Type="Int32" Nullable="false" />
+    <Property Name="IIS_NAME" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="URL" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Name="AMS_URL" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+    <Property Type="String" Name="AMS_PREVIEW" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="AMS_PLAYER" MaxLength="150" FixedLength="false" Unicode="false" />
+    <Property Type="Boolean" Name="IN_USE" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tppointstatu">
+    <Key>
+      <PropertyRef Name="ID_STATUS" />
+    </Key>
+    <Property Name="ID_STATUS" Type="Int32" Nullable="false" />
+    <Property Name="PPOINT_STATUS" Type="String" Nullable="false" MaxLength="150" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="tchannel_ppoint" Relationship="VModel.fkPPointStatus" FromRole="tppointstatus" ToRole="tchannel_ppoint" />
+  </EntityType>
+  <Association Name="fkPPointStatus">
+    <End Role="tppointstatus" Type="VModel.tppointstatu" Multiplicity="1" />
+    <End Role="tchannel_ppoint" Type="VModel.tchannel_ppoint" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tppointstatus">
+        <PropertyRef Name="ID_STATUS" />
+      </Principal>
+      <Dependent Role="tchannel_ppoint">
+        <PropertyRef Name="ID_STATUS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
