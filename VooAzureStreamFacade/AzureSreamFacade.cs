@@ -86,7 +86,7 @@ namespace EncodeLiveStreamWithAmsClear
 
             ChannelCreationOptions options = new ChannelCreationOptions
             {
-                EncodingType = ChannelEncodingType.Standard,
+           //     EncodingType = ChannelEncodingType.Standard,
                 Name = ChannelName,
                 Input = channelInput,
                 Preview = channePreview,

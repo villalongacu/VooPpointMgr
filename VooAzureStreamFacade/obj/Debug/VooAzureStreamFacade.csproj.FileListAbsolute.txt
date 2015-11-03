@@ -56,7 +56,6 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFac
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\bin\Debug\zh-Hant\System.Spatial.resources.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\obj\Debug\VooAzureStreamFacade.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\obj\Debug\VooAzureStreamFacade.pdb
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\obj\Debug\VooAzureStreamFacade.csprojResolveAssemblyReference.cache
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\obj\Debug\VooAzureStreamFacade.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\obj\Debug\VooAzureStreamFacade.pdb
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\bin\Debug\VooAzureStreamFacade.dll.config
@@ -80,3 +79,4 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\bin\Debug\Newtonsoft.Json.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\bin\Debug\System.Spatial.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade\obj\Debug\VooAzureStreamFacade.csprojResolveAssemblyReference.cache

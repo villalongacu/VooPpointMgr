@@ -16,3 +16,6 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFac
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade.Service\obj\Debug\VooAzureStreamFacade.Service.dll
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade.Service\obj\Debug\VooAzureStreamFacade.Service.pdb
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VOOAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade\VooAzureStreamFacade.Service\bin\VooAzureStreamFacade.Service.dll.config
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade.Service\obj\Debug\VooAzureStreamFacade.Service.csprojResolveAssemblyReference.cache
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade.Service\obj\Debug\VooAzureStreamFacade.Service.dll
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooAzureStreamFacade.Service\obj\Debug\VooAzureStreamFacade.Service.pdb

@@ -23,7 +23,7 @@ namespace VooPPointMgr.Services.Controllers
         }
 
         // POST: api/Amsppointstartchannel
-        public void Post([FromBody]string value)
+        public void Post(string value)
         {
             var result = VooAzureStreamFacade.VooAzureStreamFacade.StartChannel(value);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);

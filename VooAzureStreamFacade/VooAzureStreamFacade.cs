@@ -285,21 +285,29 @@ namespace VooAzureStreamFacade
 
         public static IChannel CreateChannel(string aChannelName, string aChannelInputName, string aChannelPreviewName)
         {
-            ChannelCreationOptions options = new ChannelCreationOptions
-                    {
-                        EncodingType = ChannelEncodingType.None, 
-                        Name = aChannelName, 
-                        Input = CreateChannelInput(aChannelInputName),
-                        Preview = CreateChannelPreview(aChannelPreviewName),
-                        Output = CreateChannelOutput(),
-                        Encoding = CreateChannelEncoding()
-                };
+            var channelEncoding = CreateChannelEncoding();
 
-            IOperation channelCreateOperation = _context.Channels.SendCreateOperation(options);
+            IChannel channel = _context.Channels.Create(
+            new ChannelCreationOptions
+            {
+       //         EncodingType = ChannelEncodingType.None,
+                Name = aChannelName,
+                Input = CreateChannelInput(aChannelInputName),
+                Preview = CreateChannelPreview(aChannelPreviewName),
+                Output = CreateChannelOutput(),
+         //       Encoding = channelEncoding
+            });
 
-            IChannel channel = _context.Channels.Where(c => c.Id == aChannelName).FirstOrDefault();
 
-            string channelId = TrackOperation(channelCreateOperation, "Channel create");
+            //   Console.WriteLine("Starting Channel " + aChannelName);
+            return channel;
+            //    IOperation channelCreateOperation = _context.Channels.SendCreateOperation(options);
+
+         //   IChannel channel = _context.Channels.Create(options);
+
+        //    IChannel channel = _context.Channels.Where(c => c.Id == aChannelName).FirstOrDefault();
+
+       //     string channelId = TrackOperation(channelCreateOperation, "Channel create");
             //   Console.WriteLine("Starting Channel " + aChannelName);
             return channel;
         }
@@ -549,14 +557,14 @@ namespace VooAzureStreamFacade
             IProgram aProgram = _context.Programs.Where(p => p.Name == configParams.AProgramlName).FirstOrDefault();
             if (aProgram.State != ProgramState.Running)
             {
-                aProgram.SendStartOperation();
+                aProgram.Start();
             }
 
            //Start the Streaming Endpoint
             IStreamingEndpoint aStreamingEndpoint = _context.StreamingEndpoints.Where(s => s.Name == configParams.AStreamingEndpointName).FirstOrDefault();
             if (aStreamingEndpoint.State != StreamingEndpointState.Running)
             {
-                aStreamingEndpoint.SendStartOperation();
+                aStreamingEndpoint.Start();
             }
           
                // return result

@@ -54,7 +54,6 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Service
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Web.WebPages.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Web.WebPages.Deployment.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\System.Web.WebPages.Razor.xml
-D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Antlr3.Runtime.pdb
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\EntityFramework.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\EntityFramework.SqlServer.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.AspNet.Identity.Core.xml
@@ -102,3 +101,4 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Service
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Web.Infrastructure.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebMatrix.WebData.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\WebMatrix.Data.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.Services\bin\Microsoft.Practices.TransientFaultHandling.Core.dll

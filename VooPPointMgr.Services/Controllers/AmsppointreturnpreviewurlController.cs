@@ -10,19 +10,14 @@ namespace VooPPointMgr.Services.Controllers
     public class AmsppointreturnpreviewurlController : ApiController
     {
         // GET: api/Amsppointreturnpreviewurl
-        public HttpResponseMessage Get(string id)
+        public string Get(string value)
         {
-            var result = VooAzureStreamFacade.VooAzureStreamFacade.ReturnPreviewURL(id);
+            var result = VooAzureStreamFacade.VooAzureStreamFacade.ReturnPreviewURL(value);
             HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
+            return result;
         }
 
-        // GET: api/Amsppointreturnpreviewurl/5
-        public string Get(int id)
-        {
-            return "value";
-        }
-
+   
         // POST: api/Amsppointreturnpreviewurl
         public void Post([FromBody]string value)
         {

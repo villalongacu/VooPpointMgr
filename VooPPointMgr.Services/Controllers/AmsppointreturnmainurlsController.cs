@@ -9,18 +9,15 @@ namespace VooPPointMgr.Services.Controllers
 {
     public class AmsppointreturnmainurlsController : ApiController
     {
-        // GET: api/Amsppointreturnmainurls
-        public HttpResponseMessage Get(string id)
-        {
-            var result = VooAzureStreamFacade.VooAzureStreamFacade.ReturnMainStreamingURLs(id);
-            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
-            return response;
-        }
-
+   
         // GET: api/Amsppointreturnmainurls/5
-        public string Get(int id)
+        public string [] Get(string value)
         {
-            return "value";
+            var result = VooAzureStreamFacade.VooAzureStreamFacade.ReturnMainStreamingURLs(value);
+            HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, result);
+
+            return result.Select(i => i.ToString()).ToArray();
+          
         }
 
         // POST: api/Amsppointreturnmainurls
