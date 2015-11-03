@@ -66,13 +66,14 @@ namespace VooPPointMgr.DataL
             {
                 using (vEntities context = new vEntities())
                 {
-                    var dbQuery = from edcha in context.tdevicechannelaccesses
+                    var dbQuery = (from edcha in context.tdevicechannelaccesses
                                   join ed in context.tencoderdevices on edcha.ID_DEVICE equals ed.ID_ENCODERDEVICE
                                   join ch in context.channels on edcha.ID_CHANNEL equals ch.id
                                   where edcha.ID_DEVICE == deviceIdentifier
-                                  select new DeviceChannelAccessInfo() { id = ch.id, name = ch.name, ID_ENCODERDEVICE = ed.ID_ENCODERDEVICE, DEVICE_NAME = ed.DEVICE_NAME };
+                                  select new DeviceChannelAccessInfo() { id = ch.id, name = ch.name, ID_ENCODERDEVICE = ed.ID_ENCODERDEVICE, DEVICE_NAME = ed.DEVICE_NAME });
 
-                    return dbQuery.AsEnumerable().ToArray();
+                    var result = dbQuery.AsEnumerable().ToArray();
+                    return result;
 
                 }
             }

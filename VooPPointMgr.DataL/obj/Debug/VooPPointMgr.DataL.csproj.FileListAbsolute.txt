@@ -25,3 +25,4 @@ D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\b
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\Microsoft.Web.Infrastructure.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\System.Web.Razor.xml
 D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\LIVOST_PROJECTS_ALL\LIVOST PORTAL 2012\VooPPointMgr2015G\VooPPointMgr.DataL\obj\Debug\VooPPointMgr.DataL.csprojResolveAssemblyReference.cache
